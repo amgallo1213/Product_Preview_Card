@@ -1,0 +1,18 @@
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif; */
+
+#container  {
+    background-color: hsl(30, 38%, 92%);
+    height: 600px;
+    width: 1000px;
+}
+
+#card   {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#name   {
+    font-family: 'Fraunces', serif;
+}
