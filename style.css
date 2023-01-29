@@ -36,22 +36,27 @@ font-family: 'Montserrat', sans-serif; */
 #product-type   {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228,12%, 48%);
+    
 }
 
 #name   {
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     display: flex;
-    /* flex-direction: row; */
     flex-wrap: wrap;
+    margin-top: -35px;
 }
 
 #body-copy  {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228,12%, 48%);
     font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -10px;
+    width: auto;
 }
 
 #price  {
@@ -80,4 +85,5 @@ font-family: 'Montserrat', sans-serif; */
     background-color: hsl(158, 36%, 37%);
     color:hsl(0, 0%, 100%);
     font-family: 'Montserrat', sans-serif;
+    margin-right: 5%;
 }
