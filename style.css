@@ -1,18 +1,50 @@
 /* font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif; */
 
+/* #background-img {
+    height: 20vh;
+    width: 20vw;
+} */
+
 #container  {
     background-color: hsl(30, 38%, 92%);
     height: 600px;
-    width: 1000px;
+    width: 70%;
+    margin: auto;
 }
 
 #card   {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
 }
 
+#image  {
+    height: 400px;
+}
+
+#card-info  {
+    background-color: hsl(0, 0%, 100%);
+}
 
 #name   {
     font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+
+#sale-price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+#button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(158, 36%, 37%);
+    color:hsl(0, 0%, 100%);
 }
