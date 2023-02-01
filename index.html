@@ -7,14 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css" media="(max-width: 1440px)">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 375px)">
     <title>Product Preview Card</title>
 </head>
 <body>
     <!-- <img src="images/favicon-32x32.png" alt="abstract background designs" id="background-img"> -->
         <div id="container">
             <div id="card">
-                <img src="images/image-product-desktop.jpg" alt="bottle of perfume" id="image">
+                <picture>
+                    <source src="mages/image-product-desktop.jpg" type="" alt="bottle of perfume" id="image" media="(max-width: 1440px)">
+                    <!-- <img src="images/image-product-desktop.jpg" alt="bottle of perfume" id="image"> -->
+                </picture>
                 <div id="card-info">
                     <p id="product-type">PERFUME</p>
                     <div id="name">
