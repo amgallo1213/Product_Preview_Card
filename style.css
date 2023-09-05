@@ -1,23 +1,13 @@
-
-/* body    {
-    background-color: hsl(30, 38%, 92%);
-    margin: 0;
-    box-sizing: border-box;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; 
-    display: grid;
-    grid-template-columns: 50% 50%;
-} */
-
 body    {
     box-sizing: border-box;
-    background-color: hsl(30, 38%, 92%); 
+    background-color: hsl(30, 38%, 92%);
+    justify-content: center;
+    align-items: center; 
 }
 
 @media screen and (max-width: 1440px) {
     #blah   {
-        display: grid;
+        display: inline-grid;
         grid-template-columns: 50% 50%;
     }
     #image  {
@@ -92,18 +82,21 @@ body    {
     #button {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         background-color: hsl(158, 36%, 37%);
-        color:hsl(0, 0%, 100%);
-        font-family: 'Montserrat', sans-serif;
         margin-right: 5%;
         cursor: pointer;
         height: 40px;
         width: 100%;
-        border-radius: 25px;
+        border-radius: 10px;
+    }
+    #btn-txt    {
+        color:hsl(0, 0%, 100%);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
 }
-
 /* @media screen and (min-width: 375px) {
     figure  {
         background-image: url(images/image-product-mobile.jpg);
