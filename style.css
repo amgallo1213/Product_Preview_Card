@@ -4,14 +4,9 @@ font-family: 'Montserrat', sans-serif; */
 /* - Mobile: 375px
 - Desktop: 1440px */
 
-/* @media screen (min-width: 376px)    { */
-
-    #container  {
+    /* body  {
         background-color: hsl(30, 38%, 92%);
-        height: 600px;
-        width: 70%;
-        margin: auto;
-        border-radius: 1%;
+    
     }
 
     #card   {
@@ -43,7 +38,6 @@ font-family: 'Montserrat', sans-serif; */
     #product-type   {
         font-family: 'Montserrat', sans-serif;
         color: hsl(228,12%, 48%);
-        
     }
 
     #name   {
@@ -99,6 +93,58 @@ font-family: 'Montserrat', sans-serif; */
         margin-right: 5%;
         cursor: pointer;
         border-radius: 3%;
-    }
+    } */
 
-/* } */
+body    {
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1440px) {
+    figure  {
+        background-image: url(images/image-product-desktop.jpg);
+        height: 490px;
+        margin: 50px 0 0 0;
+        border-bottom-left-radius: 3%;
+        border-top-left-radius: 3%;
+        width: 100%;
+    }
+    section     {
+        background-color: hsl(0, 0%, 100%);
+        height: 450px;
+        width: 250px;
+        padding: 20px;
+        margin-top: 50px;
+        border-top-right-radius: 3%;
+        border-bottom-right-radius: 3%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #product-type   {
+        font-family: 'Montserrat', sans-serif;
+        color: hsl(228,12%, 48%);
+        margin-bottom: 50px;
+    }
+    h1   {
+        font-family: 'Fraunces', serif;
+        color: hsl(212, 21%, 14%);
+        font-weight: 700;
+        font-size: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -35px;
+        margin-bottom: 0;
+    }
+}
+
+/* @media screen and (min-width: 375px) {
+    figure  {
+        background-image: url(images/image-product-mobile.jpg);
+    }
+} */
+    
