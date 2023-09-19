@@ -95,6 +95,9 @@ body    {
         width: 100%;
         border-radius: 10px;
     }
+    #cart-icon  {
+        padding-right: 20px; 
+    }
     #btn-txt    {
         color:hsl(0, 0%, 100%);
         font-family: 'Montserrat', sans-serif;
